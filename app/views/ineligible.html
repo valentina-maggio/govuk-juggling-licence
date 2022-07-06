@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Content page template – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <p>We are sorry, but you are not eligible for a juggling licence.</p>
+      <p>In order to be eligible you must be able to juggle at least 3 balls.</p>
+      <p>Please submit a new application when you meet the required criteria.</p>
+
+      <p>Read more <a href="/url/of/onward/page">about this topic</a>.</p>
+
+    </div>
+  </div>
+
+{% endblock %}
