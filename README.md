@@ -4,7 +4,7 @@ This project uses the GOV.UK Prototype Kit to create an application for a juggli
 
 The aim of this exercise is to develop a front-end application using the GOV.UK Design System.
 
-## How to run
+## How to run the program
 
 - Clone this repo
 - Run in the Terminal `npm install` and then `npm start`
